@@ -2,10 +2,10 @@
 // Visibility utilities
 //
 
-.visible {
+.#{$prefix}visible {
   @include invisible(visible);
 }
 
-.invisible {
+.#{$prefix}invisible {
   @include invisible(hidden);
 }
